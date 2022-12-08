@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>RhoGEF/GAP search engine</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tomik23/autocomplete@1.8.5/dist/css/autocomplete.min.css"/>  </head>
+
+  <body>
+
+    <!--Quick description -->
+      <div class="info-section">
+
+          <h2>RhoGEF/GAP localizations in proliferative epithelia</h2>
+          Florencia di Pietro, Mariana Osswald, José M De las Heras, Ines Cristo, Jesus Lopez-Gay, Zhimin Wang, Stéphane Pelletier, Isabelle Gaugué, Adrien Leroy, Charlotte Martin, Eurico Morais-De-Sá and Yohanns Bellaïche<br><br>
+          <a>Link to publication</a></b>
+
+
+          <section>
+
+      <div class="search-element">
+
+          <!--The categories (Notum, Follicular) -->
+          <div class="search-component">
+
+              <h4> Epithelium : </h4>
+
+              <label class="container"> Notum
+                  <input type="checkbox" id="notum-checkbox" name="Notum", checked="checked">
+                  <span class="checkmark"></span>
+              </label>
+
+              <label class="container"> Follicular epithelium
+                  <input type="checkbox" id="follicular-checkbox" name="Follicular cells", checked="checked">
+                  <span class="checkmark"></span>
+              </label>
+
+
+          </div>
+          <!--The proteins list -->
+          <div class="search-component">
+            <h4> RhoGEP / RhoGAP : </h4>
+
+
+            <div class="auto-search-wrapper max-height count checkboxes">
+              <div class="count-number-checkbox">0</div>
+              <input
+                type="text"
+                id="checkbox"
+                placeholder="Type a protein name"
+              />
+            </div>
+            <div class="selected-item-checkbox"></div>
+          </div>
+
+          </div>
+
+    <!--The Table -->
+        <table id="result-table-header" class="styled-table" style="width:100%">
+            <thead style="width:100%">
+            <tr>
+                <th class="category" colspan="1" scope="colgroup" style="width:150px;">Gene</th>
+                <th class="category" colspan="7" scope="colgroup">Images</th>
+            </tr>
+            </thead>
+            <tbody style="width:100%">
+            </tbody>
+        </table>
+
+        <div id="results-table">
+
+
+        </div>
+          </section>
+          <section>
+             <br>
+             <h3> RhoGEF/GAP Search tool:</h3>
+              The images of RhoGEF and/ GAP localizations can be selected using the scroll bar menu. For all images:
+              <ul>
+                  <li> <b>xy</b>: apical confocal top view at the level of the AJ in the notum and follicular epithelium (FE)</li>
+                  <li> <b>yz</b>: denotes apical-basal confocal section at the level of the cytokinetic ring or the midbody for the notum, or a midsagittal section for the egg chamber</li>
+                  <li> <b>White arrowheads</b>: cytokinetic ring and midbody in early and late cytokinesis, respectively. Position of TCJ when shown in interphase cells.</li>
+                  <li> <b>Yellow arrowheads</b>: accumulations of GFP tagged RhoGEF/GAP at notable localizations</li>
+                  <li> <b> Scale bars</b>: 5µm</li>
+                  <li> <b>Signal intensities</b>:
+                        <ul style="clear: left;">
+                      <li style="clear:left;"><div style="background-color:#F7F7F7; float:left;width:30px;height:10px;border:1px solid #000;margin: 10px;line-height: 38px";vertical-align: sub;"></div>: Non detectable </li>
+                      <li style="clear:left;"><div style="background-color:#C4D7B1; float:left;width:30px;height:10px;border:1px solid #000;margin: 10px;line-height: 38px";vertical-align: sub;"></div>: Low</li>
+                      <li style="clear:left;"><div style="background-color:#9FCE63; float:left;width:30px;height:10px;border:1px solid #000;margin: 10px;line-height: 38px";vertical-align: sub;"></div>: Intermediate</li>
+                      <li style="clear:left;"><div style="background-color:#4DA858; float:left;width:30px;height:10px;border:1px solid #000;margin: 10px;line-height: 38px";vertical-align: sub;"></div>: Strong</li>
+                        </ul>
+                  </li>
+              </ul>
+              <p>
+                  <b>For the notum</b>, the top row images are the merges of the two fluorescent proteins indicated and the bottom images correspond to the GFP channel only.<br>
+                  <b>For the FE</b>, the top row images correspond to either xy views of the two indicated fluorescent channels, or to  yz views of the GFP channel. The bottom images are  xy views of the GFP channel.<br>
+                  <b>For the proteins localized at the nucleus</b>, the images are projections at the level of the nucleus.<br>
+                  <b>For fluorescently tagged RhoGEF/GAP showing very low signal to noise ratio</b>, only one image of early mitotic cell is shown since the time-lapse imaging of their localizations during cell division was not possible.
+                  The bar on the bottom of each panel indicates the level of each protein signal observed.
+
+              </p>
+          </section>
+
+          <div>
+            <p>
+                <img src="./images/schema-webpage/schema.png" style="width: 96%;
+  height: auto;
+  min-width: 120px;;   margin-left: auto;
+  margin-right: auto;">
+            </p>
+          <small>
+              <p>
+                <b>TOP</b>: Schematics of a notum (Left) and a FE (Right) epithelial cell with the subcellular localizations of RhoGEF/GAP in interphase.
+                  RhoGEF/GAP are color-coded according to their localization.
+                  Only the RhoGEF/GAP observed with a sufficient signal to noise ratio in the notum or the FE are shown
+              </p>
+                <b>BOTTOM</b>: Schematics of the subcellular localizations of selected RhoGEF/GAP during epithelial cell division in the notum and the FE in xy (top) and yz (bottom) views.
+              The dividing cell is in white and the neighbouring cells (n) are in grey. The RhoGEP/GAP names are color-coded according to their localizations in each schematic of the different division phases. Black arrows: direction of cytokinetic furrowing. (N) and (FE) indicate localizations exclusively observed in the notum or the FE, respectively. Only RhoGEF/GAP with a good signal to noise ratio are indicated.
+              <p>
+
+              </p>
+          </small>
+
+          </div>
+          </section>
+
+      </div>
+
+
+
+
+
+
+        <!--Flavour stuff -->
+        <a href="https://github.com/LeroyAdrien/rogap.github.io/tree/gh-pages" target="_blank" class="github-corner" aria-label="View source on GitHub" title="View source on GitHub"><svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+        </svg></a>
+
+
+        <script src = "https://cdn.jsdelivr.net/gh/tomik23/autocomplete@1.8.5/dist/js/autocomplete.min.js"></script>
+        <script src = "./js/data.js"></script>
+        <script src = "./js/autocomplete.js"></script>
+        <script src = "./js/table.js"></script>
+
+        <div class="modal"></div>
+
+  </body>
+</html>
