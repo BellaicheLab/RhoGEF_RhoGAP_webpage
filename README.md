@@ -4,7 +4,7 @@ This website presents the results of a research study (Link to be poster) on the
 
 ## Running the Website
 
-To run the website locally, clone or download this repository and open the `index.html` file in your web browser. Alternatively, you can view the website online by visiting the following link: (bellaichelab.github.io/RhoGEF_RhoGAP_webpage)[https://bellaichelab.github.io/RhoGEF_RhoGAP_webpage/].
+To run the website locally, clone or download this repository and open the `index.html` file in your web browser. Alternatively, you can view the website online by visiting the following link: [bellaichelab.github.io/RhoGEF_RhoGAP_webpage](https://bellaichelab.github.io/RhoGEF_RhoGAP_webpage/).
 
 ## Data and Images
 
