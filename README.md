@@ -1,9 +1,9 @@
 ![GitHub](https://img.shields.io/github/license/BellaicheLab/RhoGEF_RhoGAP_webpage)
 ![Twitter Follow](https://img.shields.io/twitter/follow/bellaiche_y?style=social)
 
-# Subcellular Localization of RhoGEF and RhoGAP Proteins
+# RhoGEF/GAP localizations in proliferative epithelia
 
-This website presents the results of a research study (Link to be poster) on the subcellular localization of RhoGEF and RhoGAP proteins in two cell types during multiple cell stages. The website is accompanied by a research paper with more detailed information on the methods and results.
+This website presents the results of a research study (Link to be posted) on the subcellular localization of RhoGEF and RhoGAP proteins in epithelia, during multiple cell stages.
 
 ## Running the Website
 
