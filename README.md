@@ -3,7 +3,7 @@
 
 # RhoGEF/GAP localizations in proliferative epithelia
 
-This website presents the results of a research study (Link to be posted) on the subcellular localization of RhoGEF and RhoGAP proteins in epithelia, during multiple cell stages.
+This website presents the results of a research study (Link to be posted) on the subcellular localization of fluorescently tagged RhoGEF and RhoGAP proteins in Drosophila epithelia, during multiple cell stages.
 
 ## Running the Website
 
