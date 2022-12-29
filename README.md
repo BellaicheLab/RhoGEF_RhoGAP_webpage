@@ -11,7 +11,7 @@ To run the website locally, clone or download this repository and open the `inde
 
 ## Data and Images
 
-The data and images used in the website are included in the `protein.json` and `images` directories, respectively. The data is provided in CSV format, and the images are provided in PNG format.
+The data and images used in the website are included in the `protein.json` and `images` directories, respectively. The data is provided in CSV format, and the images are provided in 248x284 pixels, PNG format.
 
 ## Citation
 
