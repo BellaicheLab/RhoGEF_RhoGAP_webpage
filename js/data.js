@@ -233,7 +233,7 @@ let proteins_links = {
 					  		 		"notum":{
 								"signal":["1"],
 								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
-								"phase":{"Interphase":['1'], "Prophase":["1"], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": [],"Movie": []}
+								"phase":{"Interphase":['1'],"Interphase (BAC)":['1'], "Prophase":["1"], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": [],"Movie": []}
 							},
 							"fe":{
 								"signal":["1"],
@@ -518,7 +518,7 @@ let proteins_links = {
 							"notum":{
 								"signal":["2"],
 								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
-								"phase":{"Interphase":['1'], "Prophase":[], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": ['1'],"Movie": []}
+								"phase":{"Interphase":['1'], "Interphase (BAC)":[1],  "Prophase":[], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": ['1'],"Movie": []}
 							},
 							"fe":{
 								"signal":["3"],

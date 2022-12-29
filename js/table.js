@@ -31,6 +31,7 @@ function update_table(){
     function fill_cells(categories, phases, tissue_name, i){
         for (let j=0;j<categories.length;j++){
 
+               const search = /\s/g
                stage_image = (categories[j].toLowerCase().replaceAll(' ',''));
 
                 // Create categories
