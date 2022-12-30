@@ -147,7 +147,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["0"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":[], "Metaphase":[], "Anaphase":[], "Early cytokinesis":["1"],"Late cytokinesis":["1", "2"], "Movie":[]}
 								}
@@ -237,7 +237,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["1"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":[], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[],"Late cytokinesis":[], "Movie":[]}
 								}
@@ -312,7 +312,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["1"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":[], "Metaphase":["1"], "Anaphase":[], "Early cytokinesis":[],"Late cytokinesis":[], "Movie":[]}
 								}
@@ -462,7 +462,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["1"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":["1"], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[],"Late cytokinesis":["1"], "Movie":[]}
 								}
@@ -657,7 +657,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["1"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":[], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[],"Late cytokinesis":[], "Movie":[]}
 								}
@@ -703,7 +703,7 @@ let proteins_links = {
 							},
 							"fe":{
 								"signal":["1"],
-								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
+								"pink":["", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
 								"phase":{"Interphase":["1"], "Prophase":["1"], "Metaphase":[], "Anaphase":[], "Early cytokinesis":[],"Late cytokinesis":[], "Movie":[]}
 								}
