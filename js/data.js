@@ -353,7 +353,7 @@ let proteins_links = {
 							"notum":{
 								"signal":["1"],
 								"pink":["MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
-								"phase":{"Interphase":['1'], "Prophase":[], "Metaphase":['metaphase'], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": [],"Movie": []}
+								"phase":{"Interphase":['1'], "Prophase":[], "Metaphase":['1'], "Anaphase":[], "Early cytokinesis":[], "Late cytokinesis": [],"Movie": []}
 							},
 							"fe":{
 								"signal":["2"],
