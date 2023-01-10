@@ -153,7 +153,7 @@ let proteins_links = {
 								}
 						},
 
-						"mbc":{
+						"Mbc":{
 							"url" : "https://flybase.org/reports/FBgn0015513",
 							"notum":{
 								"signal":["3"],
@@ -168,7 +168,7 @@ let proteins_links = {
 								}
 						},
 
-						"pbl":{
+						"Pbl":{
 							"url" : "https://flybase.org/reports/FBgn0003041",
 							"notum":{
 								"signal":["3"],
@@ -288,7 +288,7 @@ let proteins_links = {
 								}
 						},
 
-						"sif":{
+						"Sif":{
 							"url" : "https://flybase.org/reports/FBgn0085447",
 							"notum":{
 								"signal":["1"],
@@ -333,7 +333,7 @@ let proteins_links = {
 								}
 						},
 
-						"trio":{
+						"Trio":{
 							"url" : "https://flybase.org/reports/FBgn0024277",
 							"notum":{
 								"signal":["2"],
@@ -709,7 +709,7 @@ let proteins_links = {
 								}
 						},
 
-						"tum":{
+						"Tum":{
 							"url" : "https://flybase.org/reports/FBgn0086356",
 							"notum":{
 								"signal":["3"],
