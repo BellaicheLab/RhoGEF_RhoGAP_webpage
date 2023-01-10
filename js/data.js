@@ -453,7 +453,7 @@ let proteins_links = {
 								}
 						},
 
-						"ocrl":{
+						"OCRL":{
 							"url" : "https://flybase.org/reports/FBgn0023508",
 							"notum":{
 								"signal":["2"],
