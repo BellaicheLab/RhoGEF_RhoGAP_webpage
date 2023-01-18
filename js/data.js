@@ -179,7 +179,7 @@ let proteins_links = {
 								"signal":["3"],
 								"pink":["Nup107:RFP", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2", "MyoII:3xmKate2"],
 								"green":[],
-								"phase":{"Interphase":["1", "2"], "Prophase":[], "Metaphase":[], "Anaphase":["1"], "Early cytokinesis":["1"],"Late cytokinesis":["1"], "Movie":[]}
+								"phase":{"Interphase":["2"], "Prophase":[], "Metaphase":[], "Anaphase":["1"], "Early cytokinesis":["1"],"Late cytokinesis":["1"], "Movie":[]}
 								}
 						},
 
