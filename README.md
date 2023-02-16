@@ -19,7 +19,7 @@ The data and images used in the website are included in the `protein.json` and `
 
 If you use any of the data or images from this website in your own research, please cite the original research paper:
 
-https://www.sciencedirect.com/science/article/pii/S0960982223000623
+(Systematic analysis of RhoGEF/GAP localizations uncovers regulators of mechanosensing and junction formation during epithelial cell division) https://www.sciencedirect.com/science/article/pii/S0960982223000623
 
 This website largely uses [this autocomplete plugin](https://github.com/tomik23/autocomplete) to function.
 
